@@ -16,6 +16,7 @@
 		CE9260C52943FA9900CE44FD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260C42943FA9900CE44FD /* OnboardingView.swift */; };
 		CE9260C82944416D00CE44FD /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260C72944416D00CE44FD /* FruitModel.swift */; };
 		CE9260CB2944420500CE44FD /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260CA2944420500CE44FD /* FruitData.swift */; };
+		CE9260CD29444C5D00CE44FD /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260CC29444C5D00CE44FD /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CE9260C42943FA9900CE44FD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CE9260C72944416D00CE44FD /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		CE9260CA2944420500CE44FD /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		CE9260CC29444C5D00CE44FD /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				CE12FD692943C0F000D56D55 /* FruitCardView.swift */,
 				CE9260C22943F78500CE44FD /* StartButtonView.swift */,
+				CE9260CC29444C5D00CE44FD /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				CE9260CB2944420500CE44FD /* FruitData.swift in Sources */,
 				CE12FD6A2943C0F000D56D55 /* FruitCardView.swift in Sources */,
+				CE9260CD29444C5D00CE44FD /* FruitRowView.swift in Sources */,
 				CE9260C32943F78500CE44FD /* StartButtonView.swift in Sources */,
 				CE12FD5C2943C04400D56D55 /* ContentView.swift in Sources */,
 				CE9260C52943FA9900CE44FD /* OnboardingView.swift in Sources */,
