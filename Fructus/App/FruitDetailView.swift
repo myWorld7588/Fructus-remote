@@ -21,6 +21,7 @@ struct FruitDetailView: View {
             ScrollView(.vertical, showsIndicators: true) {
                 VStack(alignment: .center, spacing: 20) {
                     // MARK: - HEADER
+                    FruitHeaderView(fruit: fruit)
                     
                     VStack(alignment: .leading, spacing: 20) {
                         //TITLE
@@ -50,7 +51,9 @@ struct FruitDetailView: View {
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: .center)
                 } //: VSTACK
+                .navigationBarTitleDisplayMode(.inline)
             } //: SCROLL
+            .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
     }
 }

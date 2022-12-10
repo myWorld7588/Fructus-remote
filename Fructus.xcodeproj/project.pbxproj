@@ -18,6 +18,7 @@
 		CE9260CB2944420500CE44FD /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260CA2944420500CE44FD /* FruitData.swift */; };
 		CE9260CD29444C5D00CE44FD /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260CC29444C5D00CE44FD /* FruitRowView.swift */; };
 		CE9260CF2944567100CE44FD /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260CE2944567100CE44FD /* FruitDetailView.swift */; };
+		CEE49FF42944F6D7003CCD94 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49FF32944F6D7003CCD94 /* FruitHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CE9260CA2944420500CE44FD /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		CE9260CC29444C5D00CE44FD /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		CE9260CE2944567100CE44FD /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		CEE49FF32944F6D7003CCD94 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				CE12FD692943C0F000D56D55 /* FruitCardView.swift */,
 				CE9260C22943F78500CE44FD /* StartButtonView.swift */,
 				CE9260CC29444C5D00CE44FD /* FruitRowView.swift */,
+				CEE49FF32944F6D7003CCD94 /* FruitHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				CE9260C32943F78500CE44FD /* StartButtonView.swift in Sources */,
 				CE9260CF2944567100CE44FD /* FruitDetailView.swift in Sources */,
 				CE12FD5C2943C04400D56D55 /* ContentView.swift in Sources */,
+				CEE49FF42944F6D7003CCD94 /* FruitHeaderView.swift in Sources */,
 				CE9260C52943FA9900CE44FD /* OnboardingView.swift in Sources */,
 				CE9260C82944416D00CE44FD /* FruitModel.swift in Sources */,
 				CE12FD5A2943C04400D56D55 /* FructusApp.swift in Sources */,
