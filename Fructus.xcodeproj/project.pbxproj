@@ -19,6 +19,7 @@
 		CE9260CD29444C5D00CE44FD /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260CC29444C5D00CE44FD /* FruitRowView.swift */; };
 		CE9260CF2944567100CE44FD /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9260CE2944567100CE44FD /* FruitDetailView.swift */; };
 		CEE49FF42944F6D7003CCD94 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49FF32944F6D7003CCD94 /* FruitHeaderView.swift */; };
+		CEE49FF6294506E2003CCD94 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE49FF5294506E2003CCD94 /* SourceLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CE9260CC29444C5D00CE44FD /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		CE9260CE2944567100CE44FD /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		CEE49FF32944F6D7003CCD94 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		CEE49FF5294506E2003CCD94 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CE9260C22943F78500CE44FD /* StartButtonView.swift */,
 				CE9260CC29444C5D00CE44FD /* FruitRowView.swift */,
 				CEE49FF32944F6D7003CCD94 /* FruitHeaderView.swift */,
+				CEE49FF5294506E2003CCD94 /* SourceLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE9260CB2944420500CE44FD /* FruitData.swift in Sources */,
+				CEE49FF6294506E2003CCD94 /* SourceLinkView.swift in Sources */,
 				CE12FD6A2943C0F000D56D55 /* FruitCardView.swift in Sources */,
 				CE9260CD29444C5D00CE44FD /* FruitRowView.swift in Sources */,
 				CE9260C32943F78500CE44FD /* StartButtonView.swift in Sources */,
