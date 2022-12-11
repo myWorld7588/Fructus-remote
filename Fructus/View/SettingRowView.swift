@@ -20,9 +20,7 @@ struct SettingRowView: View {
     
     var body: some View {
         VStack {
-            Divider().padding(.vertical, 4)
-
-            
+            Divider().padding(.vertical, 4)            
             HStack {
                 Text(name).foregroundColor(Color.gray)
                 Spacer()
@@ -32,7 +30,6 @@ struct SettingRowView: View {
                     Link(linkLabel!, destination: URL(string: "https://\(linkDestination!)")!)
                     Image(systemName: "arrow.up.right.square").foregroundColor(.pink)
                 }
-                
                 else {
                     EmptyView()
                 }
