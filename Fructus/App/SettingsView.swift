@@ -22,10 +22,27 @@ struct SettingsView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(spacing: 20) {
                     
+                    // MARK: - SECTION 1
                     
+                    GroupBox(label: SettingsLabelView(labelText: "Fructus", labelImage: "info.circle")
+                    ) {
+                        Divider().padding(.vertical, 4)
+                        HStack(alignment: .center, spacing: 20) {
+                            Image("logo")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 80)
+                                .cornerRadius(9)
+                            Text("Most fruits are naturally low in fat, sodium, and calories. None have cholesterol. Fruits are sources of many essential nutrients, including potassium, dietary fiber, vitamins, and much more.")
+                                .font(.footnote)
+                            
+                        }
+                        
+                    }
+                    // MARK: - SECTION 2
                     
+                    // MARK: - SECTION 3
                     
-                    Text("Hello, World!")
                     
                 } //: VSTACK
                 .navigationTitle("Settings")
